@@ -10,12 +10,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  target: 'static', // 👈 static mode for GitHub Pages
+  target: 'static', 
   app: {
-    baseURL: '/gravity_pageSEO/', // GitHub Pages repo name
+    baseURL: '/',
     head: {
       htmlAttrs: {
-        lang: 'en', // important for accessibility/SEO
+        lang: 'en'
       },
     },
   },
