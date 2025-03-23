@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
       nitro: {
-    preset: 'netlify'
+    preset: 'static'
   },
     head: {
       htmlAttrs: {
